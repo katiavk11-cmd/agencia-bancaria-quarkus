@@ -4,3 +4,9 @@ CREATE TABLE IF NOT EXISTS pessoas (
     cpf VARCHAR(11) NOT NULL UNIQUE,
     email VARCHAR(160) NOT NULL
 );
+
+INSERT INTO pessoas (nome, cpf, email) VALUES 
+('Ana Maria Silva', '12345678901', 'ana.silva@example.com'),
+('Carlos Eduardo Santos', '98765432100', 'carlos.santos@example.com'),
+('Fernanda Lima', '55544433322', 'fernanda.lima@example.com');
+
